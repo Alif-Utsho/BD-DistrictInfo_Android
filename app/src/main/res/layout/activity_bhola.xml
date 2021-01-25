@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".bhola">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhola (Bengali: ভোলা)"
+            android:textSize="22sp"
+            android:paddingLeft="05dp"
+            android:background="#F1B626"
+            android:textStyle="bold"
+            />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bhola_map"
+            />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="normal"
+            android:paddingLeft="05dp"
+            android:background="#FCD167"
+            android:text="South-central part of Bangladesh, which includes Bhola Island.\nThe largest island of Bangladesh."
+            />
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EB7575"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="05dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Area"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="3,403.48 km2"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Population"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2,037,201"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Density"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="600/km2"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Literacy Rate"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="47%"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Postal Code"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="8300"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#D4EB82">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="05dp"
+                    android:textSize="20sp"
+                    android:background="#A8C053"
+                    android:text="Island"
+                    android:textStyle="bold"
+                    android:layout_weight=".7"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Bhola Island"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Manpura Island"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Dal Char"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Kukri Mukri"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E2DE8D"
+            android:paddingLeft="05dp"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="05dp"
+                    android:textSize="20sp"
+                    android:background="#BEB61E"
+                    android:text="Subdivisions"
+                    android:textStyle="bold"
+                    android:layout_weight=".7"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#E0D628"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="Upazila"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:text="Unions"
+                    android:background="#E0D628"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="Area"
+                    android:background="#E0D628"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:background="#E0D628"
+                    android:text="Population(2011)"
+                    android:textStyle="bold"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="Bhola Sadar Upazila"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="13"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="413.16"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="408097"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Daulatkhan Upazila"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="316.99"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="173253"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Burhanuddin Upazila"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="9"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="284.67"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="244137"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="Tazumuddin Upazila"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="512.92"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="120189"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="Lalmohan Upazila"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="9"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="396.24"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="276547"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="Char Fasson Upazila"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="14"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="1440.04"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="413593"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="Manpura Upazila"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="373.19"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="67034"
+                    />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#D4EB82">
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="05dp"
+                    android:textSize="20sp"
+                    android:background="#A8C053"
+                    android:text="Notable Place"
+                    android:textStyle="bold"
+                    android:layout_weight=".7"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text=""
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="1. Monpura Bar"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text=""
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="2. Bar Kukri mukri"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text=""
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="3. Deuli"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text=""
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="4. Dhal Bar"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text=""
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="5. Manpura landing station"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Taruia Seabeach"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Sojib wazed Joy digital Park"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Sahabazpur gas Khetro"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Watch Tower (Jakob Tower)"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Hasina-Nizam foundation Mosque"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#75CDF0">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:paddingLeft="05dp"
+                    android:background="#199BCE"
+                    android:text="Education"
+                    android:textStyle="bold"
+                    android:layout_weight=".7"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Bhola Government College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bhola Girls High School"
+                    android:textSize="20sp" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Bhola Govt. High School"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Govt. Fazilatunnesa Women's College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Shahabajpur Govt. College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Charfassion Govt. College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Bhola Govt. Technical School and College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="#EE9E71"
+            android:paddingBottom="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DF6D33"
+                    android:paddingLeft="05dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Health"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="1 Government general hospital"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="6 upazila health complexes"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="1 Tuberculosis clinic"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="1 mother and child care"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="1 diabetic hospital"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="276 satellite clinic"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="2 government child care"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="#EE9E71"
+            android:layout_marginBottom="20dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF6D33"
+                android:paddingLeft="05dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Notable personalities"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="•  "
+                android:textSize="20sp"
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Mostafa Kamal (Bir Sreshtho),\nfreedom fighter in 1971"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="•  "
+                android:textSize="20sp"
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Mosharef Hossain Shahjahan"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="•  "
+                android:textSize="20sp"
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Tofail Ahmed,\npolitician"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="•  "
+                android:textSize="20sp"
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Major Hafizuddin Ahmed (Bir Bikrom),\npolitician"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="•  "
+                android:textSize="20sp"
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Comrade Nalini Das,\nleader of British opposition movement"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+        </TableRow>
+        </TableLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

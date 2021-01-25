@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F59B5"
+    tools:context=".rangpur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/DinajpurTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Dinajpur"
+            />
+        <Button
+            android:id="@+id/GaibandhaTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Gaibandha"
+            />
+        <Button
+            android:id="@+id/KurigramTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Kurigram"
+            />
+        <Button
+            android:id="@+id/LalmonirhatTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Lalmonirhat"
+            />
+        <Button
+            android:id="@+id/NilphamariTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Nilphamari"
+            />
+        <Button
+            android:id="@+id/PanchagarhTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Panchagarh"
+            />
+
+        <Button
+            android:id="@+id/RangpurTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Rangpur"
+            />
+
+        <Button
+            android:id="@+id/ThakurgaonTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Thakurgaon"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

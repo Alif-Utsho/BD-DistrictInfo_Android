@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF3C3C"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+        <Button
+            android:id="@+id/barishalTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/go_icon"
+            android:text="@string/barishalText"
+
+            />
+        <Button
+            android:id="@+id/chittagongTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/go_icon"
+            android:text="@string/chittagongText"
+
+            />
+        <Button
+            android:id="@+id/dhakaTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/go_icon"
+            android:text="@string/dhakaText"
+
+            />
+        <Button
+            android:id="@+id/khulnaTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/go_icon"
+            android:text="@string/khulnaText"
+
+            />
+        <Button
+            android:id="@+id/mymensinghTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/go_icon"
+            android:text="@string/mymensinghText"
+
+            />
+        <Button
+            android:id="@+id/rajshahiTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/go_icon"
+            android:text="@string/rajshahiText"
+
+            />
+        <Button
+            android:id="@+id/rangpurTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/go_icon"
+            android:text="@string/rangpurText"
+
+            />
+        <Button
+            android:id="@+id/sylhetTextId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/go_icon"
+            android:text="@string/sylhetText"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

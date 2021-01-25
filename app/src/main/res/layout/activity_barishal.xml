@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".Barishal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barishal (Bengali: বরিশাল)"
+            android:textSize="22sp"
+            android:paddingLeft="05dp"
+            android:background="#F1B626"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/barishal_map"
+            />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="05dp"
+            android:background="#FCD167"
+            android:text="South-central part of Bangladesh.\nStablished in 1797."
+            />
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EB7575"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="05dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Area"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2,784.52 km2"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Population"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2,324,310"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Density"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="830/km2 (2,200/sq mi)"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Postal Code"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="8200"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#D4EB82">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="05dp"
+                    android:textSize="20sp"
+                    android:background="#A8C053"
+                    android:text="Subdivisions"
+                    android:textStyle="bold"
+                    android:layout_weight=".7"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Agailjhara Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Babuganj Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Bakerganj Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Banaripara Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Barisal Sadar Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Gaurnadi Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Hizla Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Mehendiganj Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Muladi Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Wazirpur Upazila"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#D4EB82">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="05dp"
+                    android:textSize="20sp"
+                    android:background="#A8C053"
+                    android:text="Culture and places of interest"
+                    android:textStyle="bold"
+                    android:layout_weight=".7"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="The Bangabandhu Uddan (former Bell's Park) is a place inside Barisal City, right on the banks of the Kirtonkhola (or Kirton Khola) river."
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="South of Barisal city there is a beach town, Kuakata. There are several hotels and motels in Kuakata. This is where the Marma live. Southeast, over the Kirtonkhola"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Shahid Abdur Rab Serniabat Bridge was inaugurated in 2011."
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#75CDF0">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:paddingLeft="05dp"
+                    android:background="#199BCE"
+                    android:text="Education"
+                    android:textStyle="bold"
+                    android:layout_weight=".7"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Sher-e-Bangla Medical College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="University of Barisal"
+                    android:textSize="20sp" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Barisal Cadet College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Govt. B M College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Govt. Barisal College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Govt. Hatem Ali College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Govt. Woman's College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Barisal Polytechnic Institute"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Govt. Fazlul Huq College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Barisal Technical School and College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="A. Karim Ideal College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Ideal Cadet School and College"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="#EE9E71"
+            android:layout_marginBottom="20dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DF6D33"
+                    android:paddingLeft="05dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Notable personalities"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Abdur Rahman Biswas,\npolitician, President of Bangladesh"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Anil Biswas,\nmusic director composer of Bollywood."
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Mahanambrata Brahmachari,\nHindu saint"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Mithun Chakraborty,\nfilm actor, singer, producer, writer, social worker, entrepreneur, television presenter of Bollywood"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Kanai Chatterjee,\nBengali maoist leader"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Abdul Gaffar Choudhury,\njournalist, who wrote Amar Bhaier Rokte Rangano to mark the Bengali Language Movement."
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Jibanananda Das,\nBengali poet"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Kusumkumari Das,\npoet and mother of Jibanananda Das"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Aswini Kumar Dutta,\nfounder of BM College"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Brajamohan Dutta,\nBengali philanthropist and social worker"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="A. K. Fazlul Huq politician,\nChief Minister of undivided Bengal and Governor of erstwhile East Pakistan"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Mohiuddin Jahangir,\nofficer in Sector 7 of the Muktibahini(1971). The highest recognition of bravery in Bangladesh, Bir Sreshtho."
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Shamsuddin Abul Kalam,\nBangladeshi novelist"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Sufia Kamal,\npoet of Bangladesh"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Altaf Mahmud,\nmusic director and lyrician, who composed Amar Bhaier Rokte Rangano"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Tofazzal Hossain Manik Miah,\nfounder editor of The Daily Ittefaq"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="•  "
+                    android:textSize="20sp"
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Hanif Sanket,\nTelevision host, writer, producer."
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+            </TableRow>
+
+
+
+
+
+
+        </TableLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

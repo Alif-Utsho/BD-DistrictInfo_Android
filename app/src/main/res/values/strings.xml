@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BD District Info</string>
+
+    <string name="dhakaText">Dhaka</string>
+    <string name="chittagongText">Chittagong</string>
+    <string name="rajshahiText">Rajshahi</string>
+    <string name="khulnaText">Khulna</string>
+
+    <string name="barishalText">Barishal</string>
+
+    <string name="BargunaText">Barguna</string>
+    <string name="nameBarguna">Barguna (Bengali: বরগুনা)</string>
+    <string name="introBarguna">
+        " Southern part of Bangladesh. \n"
+        Established as subdivision in 1969\n
+        Promoted to district in 28 February 1984.
+    </string>
+
+
+    <string name="detailsBarguna">
+
+
+    </string>
+
+
+    <string name="BarishalText">Barishal</string>
+    <string name="BholaText">Bhola</string>
+    <string name="JhalokatiText">Jhalokati</string>
+    <string name="PatuakhaliText">Patuakhali</string>
+    <string name="PirojpurText">Pirojpur</string>
+
+    <string name="sylhetText">Sylhet</string>
+    <string name="rangpurText">Rangpur</string>
+    <string name="mymensinghText">Mymensingh</string>
+
+
+</resources>

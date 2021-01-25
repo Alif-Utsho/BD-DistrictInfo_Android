@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="#3F59B5"
+    tools:context=".dinajpur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinajpur (Bengali: দিনাজপুর)"
+        android:textSize="22sp"
+        android:paddingLeft="05dp"
+        android:background="#26F177"
+        android:textStyle="bold"
+        />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="540dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dinajpur_map" />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="05dp"
+            android:background="#CEEC23"
+            android:text="Dinajpur is the largest district among all sixteen northern districts of Bangladesh. It is also called 'City of Maharajas'."
+
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4BC6EC"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="05dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Area"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="3,444.30 km2"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Population"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2,990,128"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Density"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="870/km2"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Literacy rate"
+                    android:textSize="20sp"
+                    android:gravity="end"
+                    android:layout_weight=".7"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="20sp"
+                    android:layout_weight=".2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="80.05%"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

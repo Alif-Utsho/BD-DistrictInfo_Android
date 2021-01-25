@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#8BC34A"
+    android:layout_height="match_parent"
+    tools:context=".Jhalokati">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jhalokathi (Bengali: ঝালকাঠি)"
+        android:textSize="22sp"
+        android:paddingLeft="05dp"
+        android:background="#F1B626"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/jhalokati_map"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="05dp"
+        android:background="#FCD167"
+        android:text="Southern part of Bangladesh. "
+
+        />
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EB7575"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="05dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Area"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_weight=".7"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="20sp"
+                android:layout_weight=".2"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2,784.52 km2"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Population"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_weight=".7"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="20sp"
+                android:layout_weight=".2"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2,324,310"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Density"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_weight=".7"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="20sp"
+                android:layout_weight=".2"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="830/km2 (2,200/sq mi)"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Postal Code"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_weight=".7"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="20sp"
+                android:layout_weight=".2"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="8200"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#D4EB82">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="05dp"
+                android:textSize="20sp"
+                android:background="#A8C053"
+                android:text="Subdivisions"
+                android:textStyle="bold"
+                android:layout_weight=".7"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="•  "
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Jhalokati Sadar Upazila"
+                android:layout_weight="1"
+                />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="•  "
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Kathalia Upazila"
+                android:layout_weight="1"
+                />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="•  "
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Nalchity Upazila"
+                android:layout_weight="1"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="•  "
+                android:gravity="right"
+                android:layout_weight=".3"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Rajapur Upazila"
+                android:layout_weight="1"
+                />
+
+
+        </TableRow>
+
+        <TableRow/>
+
+
+        <TableRow/>
+        <TableRow/>
+        <TableRow/>
+
+
+        <TableRow/>
+
+        <TableRow/>
+
+
+    </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="#D4EB82">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="05dp"
+                    android:textSize="20sp"
+                    android:background="#A8C053"
+                    android:text="Rivers"
+                    android:textStyle="bold"
+                    android:layout_weight=".7"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Bishkhali"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Sugandha"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Dhanshiri"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Gabkhan"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Jangalia"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Bamanda"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="•  "
+                    android:gravity="right"
+                    android:layout_weight=".3"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Bajitpur"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
